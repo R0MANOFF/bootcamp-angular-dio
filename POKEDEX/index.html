@@ -23,43 +23,19 @@
     
     <section class="content">
         <h1>Pokedex</h1>
-        <ol class="pokemons">
-            <li class="pokemon">
-                <span class="number">#001</span>
-                <span class="">Bulbassaur</span>
-
-                <div class="detail">
-                    <ol class="types">
-                        <li class="type">Grass</li>
-                        <li class="type">Poison</li>
-                    </ol>
-                    <img src="https://assets.pokemon.com/assets/cms2/img/pokedex/full/001.png" alt="Bulbassaur">
-                </div>
-                
-            </li>
-            <!-- <li>
-                Ivysaur
-                <img src="https://assets.pokemon.com/assets/cms2/img/pokedex/full/003.png" alt="Ivysaur">
-            </li>
-            <li>
-                Venusaur
-                <img src="https://assets.pokemon.com/assets/cms2/img/pokedex/full/003.png" alt="Venusaur">
-            </li>
-            <li>
-                Charmander
-                <img src="https://assets.pokemon.com/assets/cms2/img/pokedex/full/004.png" alt="Charmander">
-            </li>
-            <li>
-                Charmeleon
-                <img src="https://assets.pokemon.com/assets/cms2/img/pokedex/full/005.png" alt="Charmeleon">
-            </li>
-            <li>
-                Charizard
-                <img src="https://assets.pokemon.com/assets/cms2/img/pokedex/full/006.png" alt="Charizard">
-            </li> -->
+        <ol id="pokemonList" class="pokemons">
+  
         </ol>
+        <div class="pagination">
+            <button id="loadMoreButton" type="button">
+                Load More
+            </button>
+            
+        </div>
     </section>
     <!-- JS -->
+    <script src="assets/js/pokemon-model.js"></script>
+    <script src="assets/js/poke-api.js"></script>
     <script src="assets/js/main.js"></script>
 </body>
 </html>
