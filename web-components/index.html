@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PORTAL DE NOTICIAS GALATICA</title>
+    <link rel="stylesheet" href="styles/style.css">
+    <script src="src/Components/CardNews.js" defer></script> 
+    <!-- defer vai criar a arvore fantasma depois que criar o dom -->
+</head>
+<body>
+    <div class="container">
+        <div class="card">
+            <div class="card_left">
+                <span>Nathasha</span>
+                <h1>Darth Vader Contrata Devs</h1>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+                    Aenean nec libero suscipit, iaculis libero ut, fermentum orci. 
+                    Nunc ornare velit in lacus dignissim, a posuere augue dapibus.</p>
+            </div>
+            <div class="card_right">
+                <img src="assets/darth-vader.jpg" alt="darthvader">
+            </div>
+        </div>
+    </div>
+
+    <card-news
+        autor = "Nathasha"
+        title = "Noticia Noticia"
+        link-url = "www.google.com"
+        photo = "assets/darth-vader.jpg"
+        content = "Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+        Aenean nec libero suscipit, iaculis libero ut, fermentum orci. 
+        Nunc ornare velit in lacus dignissim, a posuere augue dapibus."
+    ></card-news>
+
+    <titulo-dinamico></titulo-dinamico>
+</body>
+</html>
